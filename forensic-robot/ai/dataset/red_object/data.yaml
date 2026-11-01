@@ -1,0 +1,9 @@
+# YOLOv8/YOLOv11 Dataset Configuration for RoboForensic Red Object Detection
+path: ../dataset/red_object  # dataset root dir relative to scripts/ or absolute path
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: red_object
